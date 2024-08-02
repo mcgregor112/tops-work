@@ -1,0 +1,5 @@
+q - What is flow chart ?
+
+Answer - A flowchart is a type of diagram that represents an algorithm, workflow or process. The flowchart shows the steps as boxes of 
+         various kinds, and their order by connecting the boxes with arrows. This diagrammatic representation illustrates a solution model to a
+         given problem.
