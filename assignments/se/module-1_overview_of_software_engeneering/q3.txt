@@ -1,12 +1,11 @@
-q - what is SDLC ?
+q - What is SDLC? Explain each phase of SDLC
 
 Answer - SDLC stands for "software development lifecycle" the cost-effective and time-efficient process that development teams
  use to design and build high-quality software. The goal of SDLC is to minimize project risks through forward planning so that 
  software meets customer expectations during production and beyond.
 
+ - SDLC has 7 phase :
 
-     - SDLC has 7 phase :
-      
       phase 1 - Requirement gathering : information from the client requirements for the product. 
                 Discuss each detail and specification of the product with the customer
 
@@ -32,4 +31,3 @@ Answer - SDLC stands for "software development lifecycle" the cost-effective and
                 According to the changing user end environment or technology, the software is updated timely.
 
       phase 7 - retirement : it means now the end of the task .
-      
