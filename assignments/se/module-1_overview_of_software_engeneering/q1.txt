@@ -1,6 +1,0 @@
-q - What is software? What is software engineering?
-
-Answer - Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite  
-of hardware, which describes the physical aspects of a computer.
-
-software engineering is the process of analyzing user needs and designing, constructing, and testing end user applications that will satisfy these needs through the use of software programming languages. It is the application of engineering principles to software development.
