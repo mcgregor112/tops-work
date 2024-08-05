@@ -1,0 +1,3 @@
+q - what is flowchart?
+
+Answer - A use case name is often short and you can use the description to elaborate more, often using paragraph form. For example:An e-commerce user selects an item they want to buy, so they place it in their online cart intending to place the order and pay electronically.
