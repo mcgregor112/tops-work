@@ -1,0 +1,6 @@
+q - Explain types of software
+
+Answer - There are 2 types of software :
+        1 system software :System software is a set of generalized programs that manage the resources of the computer, such as the central processing unit, communication links, and peripheral devices.
+
+        2 application sotware : Application software (App) is a kind of software that performs specific functions for the end user by interacting directly with it. The sole purpose of application software is to aid the user in doing specified tasks.
