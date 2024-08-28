@@ -1,0 +1,25 @@
+11] Explain the difference between ++x and x++ in C with an example.
+
+Answer :
+
+++x : it means first increment its value and then assigining its value to another identifier.
+
+x++ : it means first it assigning the old value of itself to another identifiers and the it 
+ incremnts value of itself.
+
+ SYNTAX : example :
+
+ ++x :
+
+ int x = 5;
+ int y = ++x;
+ printf("%d %d\n" , x , y);
+
+
+ x++ :
+
+ int x = 5;
+ int y = x++;
+ printf("%d %d\n" , x , y);
+
+ 
