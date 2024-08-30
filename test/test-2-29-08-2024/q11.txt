@@ -1,0 +1,4 @@
+11] Explain the difference between malloc and calloc in C.
+
+Answer :
+
