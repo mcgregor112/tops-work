@@ -7,9 +7,9 @@ struct FoodItem {
 };
 
 void displayMenu(struct FoodItem menu[], int size) {
-    printf("\nAvailable Food Items:\n");
+    printf("\n---------- MENU ----------\n");
     for (int i = 0; i < size; i++) {
-        printf("%d. %s: Rs %d\n", i + 1, menu[i].name, menu[i].price);
+        printf("%d.%s              price = %drs/pcs\n", i + 1, menu[i].name, menu[i].price);
     }
 }
 
@@ -21,19 +21,21 @@ int takeOrder(struct FoodItem menu[], int size) {
     do {
         displayMenu(menu, size);
 
-        printf("Please select a food item by entering the corresponding number: ");
+        printf("Please Enter your choose...  : ");
         scanf("%d", &choice);
+        printf("\nyou have selected %s.\n", menu[choice - 1].name);
 
         if (choice < 1 || choice > size) {
             printf("Invalid choice. Please choose a valid menu item.\n");
             continue;
         }
-        printf("How many %s(s) would you like to order? ", menu[choice - 1].name);
+        printf("Enter your quantity :  ");
         scanf("%d", &quantity);
+        printf("Amount : %d/1pc\n", menu[choice - 1].price);
 
         totalBill += menu[choice - 1].price * quantity;
-        printf("You have added %d %s(s) to your order. Current total: Rs%d\n", quantity, menu[choice - 1].name, totalBill);
-        printf("Would you like to order another item? (y/n): ");
+        printf("Total Amount : %drs\n", totalBill);
+        printf("Do oyu want place more orders ? y & n): ");
         scanf(" %c", &more);
 
     } while (more == 'y' || more == 'Y');
@@ -43,16 +45,14 @@ int takeOrder(struct FoodItem menu[], int size) {
 
 int main() {
     struct FoodItem menu[] = {
-        {"Pizza",     Rs 180},
-        {"Burger",    Rs 100},
-        {"Dosa",      Rs 120},
-        {"Idli",      Rs 50},
+        {"Pizza",  180},
+        {"Burger", 100},
+        {"Dosa",   120},
+        {"Idli",   50},
     };
 
     int menuSize = sizeof(menu) / sizeof(menu[0]);
-    printf("Welcome to the Food Ordering System\n");
-    float totalBill = takeOrder(menu, menuSize);
-    printf("\nThank you for your order! Your final bill is: %d\n", totalBill);
+    int totalBill = takeOrder(menu, menuSize);
 
     return 0;
 }

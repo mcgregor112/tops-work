@@ -2,32 +2,18 @@
 
 //Answer:
 
-#include <string.h>
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
     
-    int length = 0, i, isPalindrome = 1;
-    
     char str[100];
-    printf("Enter a string :");
-    scanf("%s",&str);
+    printf("Enter a string :",str);
+    scanf("%c",&str);
     
-     while (str[length] != '\0') {
-        length++;
-    }
-    for (i = 0; i < length / 2; i++) {
-        if (str[i] != str[length - 1 - i]) {
-            isPalindrome = 0; 
-            break;
+        if (str[0] != str[-1]) {
+            printf("this string is  palindrome");
+        }else{
+            printf("this string is not plaindrome");
         }
-    }
-    if (isPalindrome) {
-        printf("The string is a palindrome.\n");
-    } else {
-        printf("The string is not a palindrome.\n");
-    }
-
-    return 0;
-
+    
 }
