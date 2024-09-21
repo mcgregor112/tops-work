@@ -1,0 +1,13 @@
+q. What is the difference between OOP and POP?
+
+Answer :
+
+oop -
+
+OOP is Object Oriented programming and provides us many new features like encapsulation , inheritance and virtual functions
+and based on class 
+
+pop -
+
+POP is Procedural Oriented Programming and also structure based programming and doesn't provide any security , inheritance is not available , 
+and no feature provide for virtual funtion
