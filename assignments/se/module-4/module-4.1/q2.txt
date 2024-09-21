@@ -1,0 +1,4 @@
+- What is oop? List OOP concept.
+
+Answer -
+
