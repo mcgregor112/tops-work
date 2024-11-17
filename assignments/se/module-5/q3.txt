@@ -1,0 +1,10 @@
+3. What is the Difference Between DBMS and RDBMS?
+
+
+answer -
+
+DBMS (Database Management System) is a system software for creating and managing databases. It allows data storage, retrieval, and modification, 
+and it typically doesn't enforce relationships between tables.
+
+RDBMS (Relational Database Management System) is a type of DBMS that stores data in a structured way using rows and columns in tables. RDBMS
+enforces relationships between tables through primary and foreign keys, following a relational model.

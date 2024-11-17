@@ -1,0 +1,15 @@
+10. What is a Trigger, and how to create a Trigger in SQL?
+
+answer -
+
+A Trigger is a set of SQL commands that automatically executes (or "fires") in response to specific events on a table, such as INSERT, UPDATE, or 
+DELETE. Triggers are often used to enforce business rules, maintain audit trails, or automatically update data.
+
+example - 
+
+CREATE TRIGGER BeforeInsertEmployee
+BEFORE INSERT ON Employees
+FOR EACH ROW
+BEGIN
+    SET NEW.JoinDate = NOW();  -- Automatically set the join date to the current date
+END;

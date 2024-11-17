@@ -1,0 +1,15 @@
+9. What is a Savepoint? How to create a Savepoint? Write a Query.
+
+answer - 
+
+A Savepoint in SQL allows you to set a point within a transaction to which you can later roll back if needed. Savepoints help control transactions 
+more granularly by allowing partial rollbacks.
+
+Example:
+
+BEGIN TRANSACTION;
+INSERT INTO Employees (Name, Position) VALUES ('Alice', 'Manager');
+SAVEPOINT Savepoint1;
+INSERT INTO Employees (Name, Position) VALUES ('Bob', 'Analyst');
+ROLLBACK TO Savepoint1; -- Rollback only the last insert
+COMMIT;

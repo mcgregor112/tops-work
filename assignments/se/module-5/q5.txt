@@ -1,0 +1,7 @@
+5. What do you understand by Data Redundancy?
+
+answer - 
+
+Data redundancy refers to the unnecessary duplication of data within a database. Redundant data takes up additional storage space and can lead to 
+inconsistencies, as changes in one instance of the data may not be reflected in others. Normalization helps minimize data redundancy by organizing 
+data into related tables.

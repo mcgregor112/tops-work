@@ -1,0 +1,10 @@
+4. What is Codd’s Rule of RDBMS Systems?
+
+answer -
+
+Codd’s rules (by Dr. E.F. Codd) are a set of 13 principles intended to define a fully-functional relational database management system (RDBMS).
+They serve as a guideline for RDBMS systems to adhere to relational integrity. Some notable rules include:
+
+- The system must support relational data representation.
+- Data is represented logically using tables.
+- The system must support high-level relational languages like SQL.

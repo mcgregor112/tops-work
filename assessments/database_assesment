@@ -1,0 +1,31 @@
+create database assesment ;
+  
+show databases ;
+
++--------------------+
+| Database           |
++--------------------+
+| assesment          |
+| blogs              |
+| cafe_management    |
+| information_schema |
+| instagram          |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+
+ create table city ( id int primary key auto_increment, city_name varchar(255) not null, latitude decimal(9,6) , longitude decimal(9,6), country_id int);
+
+ describe city;
+
+ +------------+--------------+------+-----+---------+----------------+
+| Field      | Type         | Null | Key | Default | Extra          |
++------------+--------------+------+-----+---------+----------------+
+| id         | int          | NO   | PRI | NULL    | auto_increment |
+| city_name  | varchar(255) | NO   |     | NULL    |                |
+| latitude   | decimal(9,6) | YES  |     | NULL    |                |
+| longitude  | decimal(9,6) | YES  |     | NULL    |                |
+| country_id | int          | YES  |     | NULL    |                |
++------------+--------------+------+-----+---------+----------------+
+

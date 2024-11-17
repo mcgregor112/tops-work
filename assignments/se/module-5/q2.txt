@@ -1,0 +1,5 @@
+2. What is Normalization?
+
+answer - 
+
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller, related tables and defining relationships between them. The main goal is to eliminate duplicate data, making the database more efficient and easier to maintain.
