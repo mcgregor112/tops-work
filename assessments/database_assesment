@@ -1,6 +1,10 @@
-create database assesment ;
+1. create database :
+
+mysql> create database assesment ;
   
-show databases ;
+2. show databases ;
+
+mysql> show databases ;
 
 +--------------------+
 | Database           |
@@ -15,11 +19,16 @@ show databases ;
 | sys                |
 +--------------------+
 
- create table city ( id int primary key auto_increment, city_name varchar(255) not null, latitude decimal(9,6) , longitude decimal(9,6), country_id int);
+ 3. create table named city , customer and country with insert the data :
+ 4. used describe for  describing table that what table contains:
 
- describe city;
 
- +------------+--------------+------+-----+---------+----------------+
+
+mysql> create table city ( id int primary key auto_increment, city_name varchar(255) not null, latitude decimal(9,6) , longitude decimal(9,6), country_id int); 
+
+mysql> describe city;
+
++------------+--------------+------+-----+---------+----------------+
 | Field      | Type         | Null | Key | Default | Extra          |
 +------------+--------------+------+-----+---------+----------------+
 | id         | int          | NO   | PRI | NULL    | auto_increment |
@@ -29,3 +38,204 @@ show databases ;
 | country_id | int          | YES  |     | NULL    |                |
 +------------+--------------+------+-----+---------+----------------+
 
+
+mysql> insert into city (id, city_name, latitude, longitude, country_id) values (1, 'berlin', 52.520008, 13.404954, 1), (2, 'belgrade', 44.787197, 20.457273, 2), (3, 'zagreb', 45.815399, 15.966568, 3), (4, 'new york', 40.730610, -73.935242, 4), (5, 'los angeles', 34.052235, -118.243683, 4), (6, 'warsaw', 52.237049, 21.017532, 5);
+
+mysql> select * from city;
+
++----+-------------+-----------+-------------+------------+
+| id | city_name   | latitude  | longitude   | country_id |
++----+-------------+-----------+-------------+------------+
+|  1 | berlin      | 52.520008 |   13.404954 |          1 |
+|  2 | belgrade    | 44.787197 |   20.457273 |          2 |
+|  3 | zagreb      | 45.815399 |   15.966568 |          3 |
+|  4 | new york    | 40.730610 |  -73.935242 |          4 |
+|  5 | los angeles | 34.052235 | -118.243683 |          4 |
+|  6 | warsaw      | 52.237049 |   21.017532 |          5 |
++----+-------------+-----------+-------------+------------+
+
+
+mysql> create table customer( c_id int auto_increment primary key , c_name varchar (255) , city_id int , c_address varchar (255) not null , next_calla_date date not null , ts_inserted timestamp default current_timestamp , foreign key customer (city_id) reference
+s city (id));
+
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> describe customer;
+
++-----------------+--------------+------+-----+-------------------+-------------------+
+| Field           | Type         | Null | Key | Default           | Extra             |
++-----------------+--------------+------+-----+-------------------+-------------------+
+| c_id            | int          | NO   | PRI | NULL              | auto_increment    |
+| c_name          | varchar(255) | YES  |     | NULL              |                   |
+| city_id         | int          | YES  | MUL | NULL              |                   |
+| c_address       | varchar(255) | NO   |     | NULL              |                   |
+| next_calla_date | date         | NO   |     | NULL              |                   |
+| ts_inserted     | timestamp    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++-----------------+--------------+------+-----+-------------------+-------------------+
+
+
+
+mysql> create table country ( id int auto_increment primary key , country_name varchar (255) , country_name_english varchar (255) ,
+country_code varchar (10) );
+
+mysql> insert into customer (c_id, c_name, city_id, c_address, next_calla_date) values (1, 'jewelry store', 4, 'long street 120', '2020-01-21'), (2, 'bakery', 1 , 'kurfurstendamm 25', '2020-02-21'), (3, 'cafe', 1, 'tauentzienstrabe 44', '2020-01-21'), (4, 'restaurant', 3, 'ulica lipa 15', '2020-01-21');
+
+
+mysql> select * from customer;
++------+---------------+---------+---------------------+-----------------+---------------------+
+| c_id | c_name        | city_id | c_address           | next_calla_date | ts_inserted         |
++------+---------------+---------+---------------------+-----------------+---------------------+
+|    1 | jewelry store |       4 | long street 120     | 2020-01-21      | 2024-11-25 13:44:33 |
+|    2 | bakery        |       1 | kurfurstendamm 25   | 2020-02-21      | 2024-11-25 13:44:33 |
+|    3 | cafe          |       1 | tauentzienstrabe 44 | 2020-01-21      | 2024-11-25 13:44:33 |
+|    4 | restaurant    |       3 | ulica lipa 15       | 2020-01-21      | 2024-11-25 13:44:33 |
++------+---------------+---------+---------------------+-----------------+---------------------+
+
+
+mysql> describe country;
+
++----------------------+--------------+------+-----+---------+----------------+
+| Field                | Type         | Null | Key | Default | Extra          |
++----------------------+--------------+------+-----+---------+----------------+
+| id                   | int          | NO   | PRI | NULL    | auto_increment |
+| country_name         | varchar(255) | YES  |     | NULL    |                |
+| country_name_english | varchar(255) | YES  |     | NULL    |                |
+| country_code         | varchar(10)  | YES  |     | NULL    |                |
++----------------------+--------------+------+-----+---------+----------------+
+
+mysql> insert into country (id, country_name, country_name_english, country_code) values (1, 'Deutschland', 'Germany', 'DEU'), (2, 'Srbija', 'Serbia', 'SRB'), (3, 'Hrvatska', 'Croatia', 'HRV'), (4, 'United States of America', 'United States of America', 'USA'), (5, 'Polska', 'Poland', 'POL'), (6, 'España', 'Spain', 'ESP'), (7, 'Rossiya', 'Russia', 'RUS'); 
+
+
+mysql> select * from country;
++----+--------------------------+--------------------------+--------------+
+| id | country_name             | country_name_english     | country_code |
++----+--------------------------+--------------------------+--------------+
+|  1 | Deutschland              | Germany                  | DEU          |
+|  2 | Srbija                   | Serbia                   | SRB          |
+|  3 | Hrvatska                 | Croatia                  | HRV          |
+|  4 | United States of America | United States of America | USA          |
+|  5 | Polska                   | Poland                   | POL          |
+|  6 | España                   | Spain                    | ESP          |
+|  7 | Rossiya                  | Russia                   | RUS          |
++----+--------------------------+--------------------------+--------------+
+
+
+Task : 1 (join multiple tables using left join) 
+
+a. List all Countries and customers related to these countries.
+
+mysql> select c.country_name, cu.c_name from country as c left join customer as cu on c.id = cu.c_id ;
+ 
++--------------------------+---------------+
+| country_name             | c_name        |
++--------------------------+---------------+
+| Deutschland              | jewelry store |
+| Srbija                   | bakery        |
+| Hrvatska                 | cafe          |
+| United States of America | restaurant    |
+| Polska                   | NULL          |
+| España                   | NULL          |
+| Rossiya                  | NULL          |
++--------------------------+---------------+
+
+b. For each country displaying its name in English, the name of the city customer is located in as well as the name of the customer.
+
+select c.country_name_english, ct.city_name, cu.c_name from country c left join city ct on c.id = ct.country_id left join customer cu on ct.id = cu.city_id;
+
++--------------------------+-------------+---------------+
+| country_name_english     | city_name   | c_name        |
++--------------------------+-------------+---------------+
+| Germany                  | berlin      | bakery        |
+| Germany                  | berlin      | cafe          |
+| Serbia                   | belgrade    | NULL          |
+| Croatia                  | zagreb      | restaurant    |
+| United States of America | los angeles | NULL          |
+| United States of America | new york    | jewelry store |
+| Poland                   | warsaw      | NULL          |
+| Spain                    | NULL        | NULL          |
+| Russia                   | NULL        | NULL          |
++--------------------------+-------------+---------------+
+
+c. Return even countries without related cities and customers.
+
+select c.country_name_english, ct.city_name, cu.c_name from country c left join city ct on c.id = ct.country_id left join customer cu on ct.id = cu.city_id;
+
++--------------------------+-------------+---------------+
+| country_name_english     | city_name   | c_name        |
++--------------------------+-------------+---------------+
+| Germany                  | berlin      | bakery        |
+| Germany                  | berlin      | cafe          |
+| Serbia                   | belgrade    | NULL          |
+| Croatia                  | zagreb      | restaurant    |
+| United States of America | los angeles | NULL          |
+| United States of America | new york    | jewelry store |
+| Poland                   | warsaw      | NULL          |
+| Spain                    | NULL        | NULL          |
+| Russia                   | NULL        | NULL          |
++--------------------------+-------------+---------------+
+
+Task : 2 (join multiple tables using both left and inner join) 
+
+a. Return the list of all countries that have pairs(exclude countries which are not referenced by any city). For such pairs return all customers. Return 
+
+# using inner join :
+
+select c.country_name_english, ct.city_name, cu.c_name from country c inner join city ct on c.id = ct.country_id inner join customer cu on ct.id = cu.city_id;
+
++--------------------------+-----------+---------------+
+| country_name_english     | city_name | c_name        |
++--------------------------+-----------+---------------+
+| United States of America | new york  | jewelry store |
+| Germany                  | berlin    | bakery        |
+| Germany                  | berlin    | cafe          |
+| Croatia                  | zagreb    | restaurant    |
++--------------------------+-----------+---------------+ 
+
+# using left join :
+
+select c.country_name_english, ct.city_name, cu.c_name from country c left join city ct on c.id = ct.country_id left join customer cu on ct.id = cu.city_id where ct.city_name is not null;
+
++--------------------------+-------------+---------------+
+| country_name_english     | city_name   | c_name        |
++--------------------------+-------------+---------------+
+| Germany                  | berlin      | bakery        |
+| Germany                  | berlin      | cafe          |
+| Serbia                   | belgrade    | NULL          |
+| Croatia                  | zagreb      | restaurant    |
+| United States of America | new york    | jewelry store |
+| United States of America | los angeles | NULL          |
+| Poland                   | warsaw      | NULL          |
++--------------------------+-------------+---------------+
+
+b. even pairs of not having a single customer
+
+using left join :
+
+select c.country_name_english, ct.city_name from country c left join city ct on c.id = ct.country_id;
+
++--------------------------+-------------+
+| country_name_english     | city_name   |
++--------------------------+-------------+
+| Germany                  | berlin      |
+| Serbia                   | belgrade    |
+| Croatia                  | zagreb      |
+| United States of America | los angeles |
+| United States of America | new york    |
+| Poland                   | warsaw      |
+| Spain                    | NULL        |
+| Russia                   | NULL        |
++--------------------------+-------------+
+
+using inner joim :
+
+select c.country_name_english, ct.city_name from country c inner join city ct on c.id = ct.country_id;
++--------------------------+-------------+
+| country_name_english     | city_name   |
++--------------------------+-------------+
+| Germany                  | berlin      |
+| Serbia                   | belgrade    |
+| Croatia                  | zagreb      |
+| United States of America | new york    |
+| United States of America | los angeles |
+| Poland                   | warsaw      |
++--------------------------+-------------+
