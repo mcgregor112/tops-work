@@ -1,0 +1,23 @@
+q - Introduction to Python and its Features (simple, high-level, interpreted language).
+
+Answer - 
+
+python is an backend language which is mainly used for making automated funtion and program. it is also an interpreted language and also platform free (can be used in any operating system such as windows , macos , linux , etc).
+
+its features :
+
+SIMPLE :
+ 
+- its codes are easy in both reading and understanding .
+- free of cost in use , anyone can use it .
+- provides many in built funtions and modules .
+- has very vast community which are uses python as main language . 
+
+HIGH - LEVEL :
+
+- it is also known as high-level language because of it makes automated funtions and program with very easy code , interepreter .
+
+INTERPRETED LANGUAGE :
+
+- as we all know that python is an interpreted language because of it provides us interepreter , which executes program line by line till any error occurs or code ends . if error occurs after it breaks there till correct is correct it runs and provide us output . 
+
