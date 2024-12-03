@@ -1,0 +1,1 @@
+q - Installing Python and setting up the development environment (Anaconda, PyCharm, or VS Code).

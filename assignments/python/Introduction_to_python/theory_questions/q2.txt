@@ -1,0 +1,16 @@
+q - History and evolution of Python.
+
+Answer - 
+
+Python is an widely-used programming language and conceived in the late 1980s by Guido van Rossum. Inspired by the ABC programming language, Guido aimed to create a language that was both powerful and easy to learn. The first version of Python, 0.9.0, was released in 1991.
+
+Evolution :
+
+Python 1.0 (1994): This version introduced significant features like functional programming tools like lambda, map, filter, and reduce.
+
+Python 2.0 (2000): This major release brought in list comprehensions, garbage collection, and improved Unicode support.   
+
+Python 3.0 (2008): A significant revision, Python 3.0 aimed to rectify fundamental flaws in the language. While it introduced many improvements, it was not entirely backward-compatible with Python 2.   
+
+Python 3.x (Ongoing): Subsequent releases of Python 3 have focused on refining the language, enhancing performance, and adding new features like type hints, asynchronous programming, and more.
+

@@ -1,0 +1,21 @@
+q2 - Indentation, comments, and naming conventions in Python.
+
+Answer - 
+
+Indentation:
+
+Use 4 spaces per indentation level.
+Avoid mixing tabs and spaces.
+Line Length:
+
+Limit lines to 79 characters.
+Use parentheses to break long lines.
+
+Comments:
+
+Use clear and concise comments to explain the purpose of code.
+Avoid unnecessary comments.
+Use docstrings to document modules, classes, and functions.
+
+naming convections :
+

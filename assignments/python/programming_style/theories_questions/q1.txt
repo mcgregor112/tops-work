@@ -1,0 +1,21 @@
+q1 - Understanding Python’s PEP 8 guidelines.
+
+Answer - 
+
+PEP 8 is a style guide for Python code that promotes readability and consistency. Adhering to these guidelines makes your code easier to understand, maintain, and collaborate on. Here are some key points from PEP 8:
+
+
+Blank Lines:
+
+Separate top-level function and class definitions with two blank lines.
+Separate method definitions inside a class with a single blank line.
+Whitespace:
+
+Use spaces around operators (except unary operators like - and ~).
+Don't use spaces around = when assigning variables.
+Use spaces after commas, colons, and semicolons.
+Naming Conventions:
+
+Use lowercase letters and underscores for variables and function names (e.g., my_variable, my_function).
+Use uppercase letters and underscores for constants (e.g., MAX_VALUE).
+Use CamelCase for class names (e.g., MyClass).

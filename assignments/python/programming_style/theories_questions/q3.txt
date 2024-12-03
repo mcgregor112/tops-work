@@ -1,0 +1,13 @@
+q3 - Writing readable and maintainable code.
+
+Answer - 
+
+num1 = 10
+num2 = 20
+
+sum = num1 + num2
+
+print(sum)
+
+it is easily readable and maintainable
+
