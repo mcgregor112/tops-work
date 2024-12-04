@@ -1,0 +1,29 @@
+q - Python variables and memory allocation.
+
+Answer :
+
+python is an advanced and high level language that's because of it manages memory allocation atomatically . 
+
+
+variables :
+
+A variable is a named location used to store data in a computer program. It is a way of organizing and accessing data.
+
+syntax :
+
+variable_name = value
+
+
+examples :
+
+num = 10
+print(num)
+num = 20
+print(num)
+
+num1 = input("Enter a num1: ") always return string type value
+print(num)
+print(type(num1))
+
+num1, num2 = input("Enter a num1 and num2 sep. by |: ").split("|")
+print(int(num1) + int(num2))

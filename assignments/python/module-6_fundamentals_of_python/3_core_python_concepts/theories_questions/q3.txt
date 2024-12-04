@@ -1,0 +1,133 @@
+q - Python operators: arithmetic, comparison, logical, bitwise.
+
+Answer :
+
+An operator is a special character used to perform operations on operands.
+
+Syntax:
+
+operand1 operator operand2
+
+example :
+
+num1 = 10 
+num2 = 20
+print(num1 + num2)
+
+# 1. Arithmetic Operators: +, -, *, /, , %, //, **
+
+# num1 = 10
+# num2 = 20
+
+add_result = num1 + num2
+print(add_result) # 30
+sub_result = num1 - num2
+print(sub_result) # -10
+mul_result = num1 * num2
+print(mul_result) # 200
+div_result = num1 / num2
+print(div_result) # 0.5
+
+
+comparision operator :
+
+# 3. Comparison Operators: ==, !=, >, <, >=, <=
+
+num1 = 10
+num2 = 20
+
+print(num1 == num2) # False
+print(num1 != num2) # True
+print(num1 > num2) # False
+print(num1 < num2) # True
+print(num1 >= num2) # False
+print(num1 <= num2) # True
+
+logical operator :
+
+# A B C and or
+# T T T T   T
+# F T T F   T
+# T F T F   T
+# T T F F   T
+# F F F F   F
+
+# A not
+# T F
+# F T
+
+c1 = True
+# c2 = False
+# c3 = 2 < 5 # True
+# c4 = 10 > 100 # False
+print(c1 and c2) # False
+print(c1 or c2) # True
+print(not c1) # False
+
+bitwise operator :
+
+1. AND (&):
+
+Returns 1 if both bits are 1, otherwise 0.
+Example:
+Python
+
+x = 5  
+y = 3  
+z = x & y 
+print(z)  # Output: 1
+
+2. OR (|):
+
+Returns 1 if either bit is 1, otherwise 0.
+Example:
+Python
+
+x = 5  
+y = 3  
+z = x | y  
+print(z)  # Output: 7
+
+3. XOR (^):
+
+Returns 1 if the bits are different, otherwise 0.
+Example:
+Python
+
+x = 5  
+y = 3  
+z = x ^ y  
+print(z)  # Output: 6
+
+4. NOT (~):
+
+Inverts all bits of a number.
+Example:
+
+Python
+x = 5  
+z = ~x  
+print(z)  # Output: -6
+
+5. Left Shift (<<):
+
+Shifts bits to the left by a specified number of positions, filling the rightmost positions with 0s.
+Example:
+
+Python
+
+x = 5  
+z = x << 2 
+print(z)  # Output: 20
+
+
+6. Right Shift (>>):
+
+Shifts bits to the right by a specified number of positions, filling the leftmost positions with 0s for unsigned right shift or with the sign bit for signed right shift.
+Example:
+
+Python
+
+x = 20 
+z = x >> 2 
+print(z)  # Output: 5

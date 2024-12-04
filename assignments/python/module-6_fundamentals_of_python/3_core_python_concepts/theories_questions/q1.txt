@@ -1,0 +1,22 @@
+q - Understanding data types: integers, floats, strings, lists, tuples, dictionaries, sets.
+
+Answer - 
+
+Datatypes are the different types of data that can be stored in variables in Python. Dataypes in python are define dautomatically and manually also by using variables.
+
+integers : ' int ' this datatype store value or data which are in form of number or in integer value.
+
+floats : ' float ' this datatype store value or data which is in the form of decimal values. 
+
+strings : ' str ' this datatype uses for to store the data in form of alphabats or any other caharacters also. basically these are sequence of characters , such as ' abc ' , ' krishna ' , ' KRISHNA ' , ' 123 ', etc. but , all these should be in these ' ' or " " sign ,then only it calls it a strings.
+
+lists : it is mutable , ordered , indexing allowed , slicing allowed , list is known as "[]" , duplicates elemets allowed .
+
+tuples : it is immutable , and uses wit rounded brackets "()" , oredered sequence , indexing and slicing are allowed.
+
+dictionaries : it is based on keys and values . without keys elements are not allowed , mutable , duplicates keys are not allowed , it is used by  "{}" curly brackets .
+
+sets : it is also uses "{}" , but if its empty then it is called as dictionary , unindexed , unslicing , mutable , unordered .
+
+
+ 
