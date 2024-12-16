@@ -1,0 +1,18 @@
+q - Understanding the role of break, continue, and pass in Python loops.
+
+Answer - 
+
+break - it is an keyword used in loop where we get our output , then after it breaks  and then loop stops .
+
+continue - it is also an keyword in loop where we get the output perhaps it continues the program until the end.
+
+pass - it is used to skip th particular code of block .
+
+
+
+
+
+
+
+
+

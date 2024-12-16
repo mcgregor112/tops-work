@@ -1,0 +1,31 @@
+q - Using loops with collections (lists, tuples, etc.).
+
+Answer :
+
+For loops are the most common way to iterate over collections in Python. They're particularly useful for processing each element in a sequence.
+
+list_name = ['apple' , 'banana' , 'cherry']
+
+syntax for lists :
+
+for var in list_name:
+    print(var)
+
+tuple_name = ('apple' , 'banana' , 'cherry')
+
+syntax for tuple:
+
+for var in tuple_name:
+    print(var)
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+q2 - Nested if-else conditions.
+
+Answer - 
+
+Nested if-else :
+ 
+Nested if-else statements allow you to create more hard program decision structures in your Python programs. They involve placing an if-else statement within another if-else statement. This allows you to give multiple conditions 
+
+Syntax :
+
+if condition1:
+    if condition2:
+        statements
+
+if condition1:
+    if condition2:
+        statements
+    else:
+        statements
+else:
+    statements
+
+
+
+
+

@@ -1,0 +1,12 @@
+q - How loops work in Python.
+
+Answer :
+Loops allow you to execute a block of code repeatedly. The loop starts with iterator variable to the first item in the sequence.And checks after all elements got iterated in program . If the condition is true, the code inside the loop is executed.and this continues until the condition become false.
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+q - Introduction to for and while loops.
+
+Answer :
+
+for : A for loop is a control flow statement that allows you to iterate over a sequence of items, such as a list, tuple, or string.
+
+Syntax:
+
+for variable in sequence:
+    statement
+
+while : a while loop is control flow statement that aalows you to iterate over a sequence of items , it is useed when we don't have any limit or we don't when we need stop loop . It is also called as infinite loop.
+
+
+

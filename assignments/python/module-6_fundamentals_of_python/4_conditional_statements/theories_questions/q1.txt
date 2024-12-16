@@ -1,0 +1,38 @@
+q1 - Introduction to conditional statements: if, else, elif.
+
+Answer - 
+
+if : its is an funtion in python which is used to make program where we need to give condition for check the eligibility.
+
+Syntax :
+
+if condition:
+    statement(s)
+
+else : Checks a condition and executes the code block if it's true otherwise else block will execute
+
+Syntax :
+ 
+if condition:
+    statement(s)
+else :
+    statements(s)
+
+
+elif : elif is also an conditional statement which is used for giving 2 more than 2 conditions .
+
+Syntax :
+
+if condition1:
+    statement1
+elif condition2:
+    statement2
+elif condition3:
+    statement3
+else:
+    default statments
+
+
+
+
+
