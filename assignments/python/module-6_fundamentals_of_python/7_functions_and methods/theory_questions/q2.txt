@@ -1,0 +1,41 @@
+q - Function arguments (positional, keyword, default).
+
+Answer - 
+
+there are three type of functions arguments are there :
+
+1 positional arg :
+
+positional arguments means the values can be assigend as per the parameters locations in funtion .
+
+def function_name(parameter 1, parameter 2, ...parameter n):
+    body of function
+
+function_name(value 1, value 2, ...value n)
+
+as you can see in exampe value 1 is assigned to parameter 1 , like this all should be in sequence only .
+
+2 keyword arg :
+
+keyword arguments means you can give keywords with parameters .
+
+def info(name, age=30):
+      print(name)
+      print(age)
+
+info("brijesh")
+info("brijesh", age=50)
+
+same as you can see the keyword is always written at the last in parameters , you can't give parameter with keyword at starting .
+and its also known as DEFAULT ARGUMENTS .
+
+
+
+
+
+
+
+
+
+
+

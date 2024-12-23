@@ -1,0 +1,15 @@
+q - String slicing.
+
+Answer:
+
+String slicing is a technique to extract a portion of a string. It's like cutting out a piece of a cake.
+
+syntax :
+
+slicing (start:stop-1:step-1), it can be both in negative(-) nad positive(+).
+
+
+
+
+
+

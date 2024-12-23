@@ -1,0 +1,21 @@
+q - Basic operations: concatenation, repetition, string methods (upper(), lower(), etc.).
+
+Answer:
+
+Concatenation : Combining two or more strings to form a new string.
+
+repetition : Repeating a string a particular number of times.
+
+string methods :
+
+upper(): Converts all characters to uppercase.
+
+lower(): Converts all characters to lowercase.
+
+title(): Capitalizes the first letter of each word.
+
+capitalize(): Capitalizes the first character of the string.
+
+there are many more ,etc. 
+
+

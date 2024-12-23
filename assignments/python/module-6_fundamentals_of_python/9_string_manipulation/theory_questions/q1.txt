@@ -1,0 +1,12 @@
+q - Understanding how to access and manipulate strings.
+
+Answer:
+
+A string is a sequence of characters. In Python, strings are immutable, meaning they cannot be changed after they are created , indexing , slicing.
+it is written with ('string'), ("string"), ("""string"""), ('''string'''). and there are many in-built methods for string manipulation.
+
+
+
+
+
+

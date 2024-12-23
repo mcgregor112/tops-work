@@ -1,0 +1,19 @@
+q - Scope of variables in Python.
+
+Answer - 
+
+the scope of a variable defines the region of the program where that variable can be accessed.
+
+there are three type of variable scopes :
+
+1. global scope :
+
+it is defined at globally and you can use it anywhere in program.
+
+2. local scope :
+
+it is defined at locally as inside the function and only used for the the inside of the funtion . is is not usable  
+3. non-loacl scope :
+
+
+

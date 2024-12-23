@@ -1,0 +1,9 @@
+q - Understanding how generators work in Python.
+
+Answer :
+
+
+
+
+
+

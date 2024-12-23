@@ -1,0 +1,20 @@
+q - Defining and calling functions in Python.
+
+Answer - 
+
+We need def keyword for defining functions 
+
+funtions are used for reuse block of code again and again by just calling it whenever we need to use it . 
+
+for calling function we need to define function and then we can call it by using function variable with values as per the parametrs .
+
+syntax :
+
+def function_name(parameter 1, parameter 2, ...parameter n): # function defination
+    body of function
+
+function_name(value 1, value 2, ...value n) # function call 
+
+
+
+

@@ -1,0 +1,24 @@
+q - Built-in methods for strings, lists, etc.
+
+Answer - 
+
+List common methods :
+
+my_list.append(6)  
+my_list.insert(2, 10)
+my_list.remove(3)  
+print(my_list.pop())
+print(my_list.index(2))
+print(my_list.count(1))
+my_list.sort()
+my_list.reverse()
+
+string common methods :
+
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.strip())
+print(my_string.split(","))
+print(my_string.replace("Hello", "Hi"))
+print(my_string.find("World"))
+
