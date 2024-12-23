@@ -3,7 +3,7 @@
 # Answer - 
 
 def alternate(string):
-  alt_ch = string[::2]
+  alt_ch = string[1::2]
   print(alt_ch)
 
 string = input("Enter a String :")
