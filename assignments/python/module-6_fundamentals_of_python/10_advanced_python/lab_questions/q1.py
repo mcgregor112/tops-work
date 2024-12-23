@@ -1,12 +1,12 @@
-# q - How functional programming works in Python.
+# q - Write a Python program to apply the map() function to square a list of numbers.
 
 # Answer :
 
-def str_5(name):
-    ch_5 = name[:5]
-    print(ch_5)
-name = input("Enter a String :")
-str_5(name)
+nums = [1,2,3,4,5,6,7,8,9,10]
+square_root = map(lambda x: x **2, nums)
+square_root_list = list(square_root)
+print(square_root_list)
+
 
 
 

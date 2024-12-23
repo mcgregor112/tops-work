@@ -2,8 +2,28 @@ q - Difference between yield and return.
 
 Answer :
 
+In Python, both yield and return are used to send values from a function, but they work in fundamentally different ways and are used for different purposes.
 
+RETURN :
 
+When a function reaches a return statement, it terminates and sends a value back to the caller. The function is done executing, and no further values are produced.
 
+A function with a return statement will return a single value (or no value at all, in which case it returns None).
 
+The function terminates immediately when it encounters a return statement. No further code in the function is executed after the return.
 
+Used when you want to send back a result and end the function execution.
+
+Returns a single value (or None), and if returning a collection (like a list or a tuple), all the values are stored in memory at once.
+
+YIELD :
+
+yield pauses the function and sends a value to the caller, but crucially, the function’s state is preserved. The next time the function is called, it resumes execution right after the yield statement and can continue to produce more values.
+
+A function with yield returns a generator object, which can be iterated over to retrieve values one at a time. It doesn’t return a value all at once, but rather generates values lazily when requested.
+
+A function with yield returns a generator object, which can be iterated over to retrieve values one at a time. It doesn’t return a value all at once, but rather generates values lazily when requested.
+
+Used when you want to generate a series of values over time, especially when working with large datasets or streams where storing everything in memory at once is impractical. It allows you to produce values lazily (on demand).
+
+Used when you want to generate a series of values over time, especially when working with large datasets or streams where storing everything in memory at once is impractical. It allows you to produce values lazily (on demand).

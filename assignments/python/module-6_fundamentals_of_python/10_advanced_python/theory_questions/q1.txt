@@ -1,8 +1,8 @@
-q - Write a Python program to apply the map() function to square a list of numbers.
+q - How functional programming works in Python.
 
 Answer :
 
-
+Functional programming is a programming paradigm where the focus is on using functions to transform data, rather than using objects or state. In Python, functional programming features are supported but are often used alongside object-oriented programming (OOP) and imperative programming.
 
 
 

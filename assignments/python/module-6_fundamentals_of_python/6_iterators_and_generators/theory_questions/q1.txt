@@ -2,7 +2,7 @@ q - Understanding how generators work in Python.
 
 Answer :
 
-
+Generators in Python are a type of iterable, like lists or tuples, but they allow you to produce items one at a time, on-demand, rather than storing them in memory all at once. This makes them especially useful for working with large datasets or when you need to generate values lazily (i.e., only when needed).
 
 
 
