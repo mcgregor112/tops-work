@@ -1,1 +1,11 @@
 q - Installing Python and setting up the development environment (Anaconda, PyCharm, or VS Code).
+
+Answer : 
+
+step 1 :
+
+download the vs code in your device and then extract it into your device then after install it .
+
+step 2 :
+
+download extension for python and then you can easily use python language in vs code and prctice it .

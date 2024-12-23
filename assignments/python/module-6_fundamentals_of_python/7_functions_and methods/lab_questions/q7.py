@@ -3,7 +3,7 @@
 # Answer - 
 
 def substring(name):
-    ind_str = name[:4]
+    ind_str = name[1:4]
     print(ind_str)
 name = input("Enter your name :")
 

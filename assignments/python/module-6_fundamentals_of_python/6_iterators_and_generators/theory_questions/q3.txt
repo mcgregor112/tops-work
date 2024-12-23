@@ -2,8 +2,18 @@ q - Understanding iterators and creating custom iterators.
 
 Answer :
 
+iterators is an method which is used in loops and u can easily use the iter keyword for using iterator for making custom iterator .
 
+example :
 
+num = [1,2,3,4,5,6,7,8,9,10]
+
+n = iter(num)
+
+print(next(n))
+print(next(n))
+print(next(n))
+print(next(n))
 
 
 
