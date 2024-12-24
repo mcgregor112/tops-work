@@ -1,0 +1,9 @@
+q - Slicing a list: accessing a range of elements.
+
+Answer :
+
+
+
+
+
+

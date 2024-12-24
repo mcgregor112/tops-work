@@ -1,0 +1,9 @@
+q - Standard library modules: math, random.
+
+Answer :
+
+
+
+
+
+

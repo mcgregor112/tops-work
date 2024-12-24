@@ -1,0 +1,9 @@
+q - Slicing a tuple to access ranges of elements.
+
+Answer :
+
+
+
+
+
+

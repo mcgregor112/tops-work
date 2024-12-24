@@ -1,0 +1,9 @@
+q - Understanding list methods like append(), insert(), remove(), pop().
+
+Answer :
+
+
+
+
+
+

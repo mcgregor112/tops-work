@@ -1,0 +1,10 @@
+q - Indexing in lists (positive and negative indexing).
+
+Answer :
+
+
+
+
+
+
+

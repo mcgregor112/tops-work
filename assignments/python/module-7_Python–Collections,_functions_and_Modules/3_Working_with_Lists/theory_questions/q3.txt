@@ -1,0 +1,9 @@
+q - Basic list manipulations: addition, deletion, updating, and slicing.
+
+Answer :
+
+
+
+
+
+

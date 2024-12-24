@@ -1,0 +1,9 @@
+q - Sorting and reversing a list using sort(), sorted(), and reverse().
+
+Answer :
+
+
+
+
+
+
