@@ -2,7 +2,20 @@ q - Accessing tuple elements using positive and negative indexing.
 
 Answer :
 
+1. Positive Indexing
 
+Positive indexing starts from 0 for the first element and increases sequentially.
+
+my_tuple = ("apple", "banana", "cherry", "orange") 
+my_tuple[0] accesses the first element ("apple")
+my_tuple[1] accesses the second element ("banana")
+
+2. Negative Indexing
+
+Negative indexing starts from -1 for the last element and decreases sequentially.
+Example:
+my_tuple = ("apple", "banana", "cherry", "orange") 
+my_tuple[-1] accesses the last element ("orange")
 
 
 

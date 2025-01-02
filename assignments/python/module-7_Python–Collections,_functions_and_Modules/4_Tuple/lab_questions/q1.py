@@ -2,6 +2,8 @@
 
 # Answer :
 
+fruits = ("mango", 55.55, 21)
+print(fruits)
 
 
 

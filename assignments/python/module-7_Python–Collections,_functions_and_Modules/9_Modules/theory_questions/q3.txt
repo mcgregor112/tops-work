@@ -2,7 +2,42 @@ q - Creating custom modules.
 
 Answer :
 
+Certainly, let's explore how to create your own custom modules in Python.
 
+1. Creating a Python File :
+
+Create a new Python file (e.g., my_module.py) to store your module's code.
+
+2. Defining Functions, Classes, and Variables :
+
+Inside my_module.py, define the functions, classes, and variables that you want to include in your module.
+
+my_module.py
+
+def greet(name):
+    """Greets a person by name."""
+    print(f"Hello, {name}!")
+
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+
+my_variable = 10 
+
+3. Importing and Using the Module
+
+In another Python file (e.g., main.py), import the module using the import statement:
+
+import my_module
+
+my_module.greet("Alice")  # Output: Hello, Alice!
+
+obj = my_module.MyClass(5) 
+print(obj.value)  # Output: 5
+
+print(my_module.my_variable)  
+
+Output: 10
 
 
 

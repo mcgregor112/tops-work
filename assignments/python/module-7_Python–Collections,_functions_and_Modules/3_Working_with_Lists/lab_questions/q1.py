@@ -2,7 +2,10 @@
 
 # Answer :
 
+list1 = ["krishna", "sharma", "python", "django", "backend"]
 
+for l in list1 :
+    print(l)
 
 
 

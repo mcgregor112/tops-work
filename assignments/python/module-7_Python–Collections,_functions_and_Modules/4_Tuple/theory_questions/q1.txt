@@ -2,7 +2,12 @@ q - Introduction to tuples, immutability.
 
 Answer :
 
+Definition: A tuple is an ordered, immutable collection of objects in Python.
 
+Immutability: This means that once a tuple is created, its elements cannot be changed, added, or removed.
+
+Syntax: Tuples are typically defined by enclosing a comma-separated sequence of values within parentheses ().
+Example: my_tuple = (1, 2.5, "hello", True)
 
 
 

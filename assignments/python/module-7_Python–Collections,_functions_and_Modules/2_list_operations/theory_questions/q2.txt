@@ -2,7 +2,19 @@ q - Understanding list methods like append(), insert(), remove(), pop().
 
 Answer :
 
+1. append() :
+This method allows you to add a single element to the very end of an existing list. It effectively increases the list's length by one.
 
+2. insert() :
+Unlike append(), insert() provides more control over where the new element is placed within the list. You specify the desired index, and the new element is inserted at that exact position, shifting the existing elements to the right.
+
+3. remove() :
+This method searches for the first occurrence of a specific value within the list. If found, it removes that value, potentially altering the order of subsequent elements.
+
+4. pop() :
+This method serves a dual purpose:
+It removes the element at a specified index (or the last element if no index is provided).
+It also returns the value of the removed element, which can be useful for further processing.
 
 
 

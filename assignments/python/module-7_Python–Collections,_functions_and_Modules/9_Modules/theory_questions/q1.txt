@@ -2,8 +2,18 @@ q - Introduction to Python modules and importing modules.
 
 Answer :
 
+Module :
 
+A module is a Python file (ending with .py) that contains a collection of functions, classes, and variables.
 
+Importing Modules :
+
+import Statement :
+The import statement is used to bring the contents of a module into your current script.
+
+Syntax : 
+
+import module_name
 
 
 

@@ -2,7 +2,7 @@ q - Slicing a list: accessing a range of elements.
 
 Answer :
 
-
+Slicing allows you to access a subset of elements from a list. It is done using the notation list[start:end], where start is the index of the first element to include (inclusive) and end is the index of the element just after the last element to include (exclusive).
 
 
 

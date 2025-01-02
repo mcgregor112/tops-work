@@ -2,7 +2,18 @@ q - Iterating over a list using loops.
 
 Answer :
 
+for loop:
 
+for fruit in fruits:
+    print(fruit) 
+This would print each fruit in the list on a separate line.
+
+while loop:
+
+index = 0
+while index < len(fruits):
+    print(fruits[index])
+    index += 1
 
 
 

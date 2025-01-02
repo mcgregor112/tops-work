@@ -2,7 +2,13 @@ q - Slicing a tuple to access ranges of elements.
 
 Answer :
 
+Slicing allows you to extract a portion of a tuple, creating a new sub-tuple.
 
+Syntax: tuple_name[start:end:step]
+
+start : The starting index (default: 0).
+end : The ending index (default: end of the tuple).
+step : The step size (default: 1).
 
 
 

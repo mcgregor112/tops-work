@@ -2,6 +2,8 @@
 
 # Answer :
 
+t1 = ("mango", "apple", "cherry", "banana")
+print(t1[0])
 
 
 

@@ -2,6 +2,9 @@
 
 # Answer :
 
+student_info = ["krishna", 20, 10.56]
+print(student_info)
+
 
 
 

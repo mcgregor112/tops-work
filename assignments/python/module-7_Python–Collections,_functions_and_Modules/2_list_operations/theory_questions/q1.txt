@@ -1,0 +1,19 @@
+q - Common list operations: concatenation, repetition, membership.
+
+Answer :
+
+1 Concatenation :
+
+Concatenation involves combining two or more lists to form a single, larger list. The resulting list contains all the elements from the original lists, in the order they were combined.
+
+2 Repetition :
+
+Repetition involves creating a new list by repeating the elements of an existing list a specified number of times. This effectively multiplies the list's length.
+
+3 Membership :
+
+Membership refers to the ability to check if a particular value exists within a list. This is a fundamental operation for searching and filtering data within a list.
+
+
+
+

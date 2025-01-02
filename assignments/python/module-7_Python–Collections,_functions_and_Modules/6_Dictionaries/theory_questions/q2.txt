@@ -2,7 +2,41 @@ q - Accessing, adding, updating, and deleting dictionary elements.
 
 Answer :
 
+Certainly, let's explore how to access, add, update, and delete elements in Python dictionaries.
 
+1. Accessing Elements
+
+my_dict = {"name": "Alice", "age": 30}
+name = my_dict["name"] 
+
+Using the get() Method:
+city = my_dict.get("city")  # Returns None because "city" doesn't exist
+city = my_dict.get("city", "Unknown")  # Returns "Unknown" as the default value
+
+2. Adding Elements : 
+
+Adding a New Key-Value Pair:
+Simply assign a value to a new key within the dictionary:
+
+my_dict = {"name": "Alice", "age": 30}
+my_dict["city"] = "New York"  # Adds a new key-value pair
+
+3. Updating Elements :
+
+Modifying an Existing Value:
+Assign a new value to an existing key:
+
+my_dict = {"name": "Alice", "age": 30}
+my_dict["age"] = 31  # Updates the value associated with the key "age"
+
+4. Deleting Elements
+Using the del Statement:
+
+my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+del my_dict["city"] 
+
+pop() Method:
+removed_age = my_dict.pop("age") 
 
 
 

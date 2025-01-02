@@ -2,8 +2,14 @@ q - Iterating over a dictionary using loops.
 
 Answer :
 
+1. Iterating over Keys
 
+my_dict = {"name": "krishna", "age": 20, "city": "surat"}
 
+for key in my_dict.keys():
+    print(key) 
+Output:
 
-
-
+name
+age
+city

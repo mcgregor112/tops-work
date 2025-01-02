@@ -2,7 +2,11 @@ q - Dictionary methods like keys(), values(), and items().
 
 Answer :
 
+keys(): Returns a view object containing all the keys in the dictionary.
+ 
+values(): Returns a view object containing all the values in the dictionary.
 
+items(): Returns a view object containing1 all the key-value pairs2 as tuples
 
 
 

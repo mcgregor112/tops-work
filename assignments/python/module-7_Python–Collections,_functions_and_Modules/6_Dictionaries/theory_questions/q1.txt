@@ -2,7 +2,12 @@ q - Introduction to dictionaries: key-value pairs.
 
 Answer :
 
+A dictionary is an unordered collection of data in Python that stores data in the form of key-value pairs.
 
+Key-Value Pairs:
+
+Keys: Unique identifiers for each value. They must be immutable (e.g., strings, numbers, tuples).
+Values: Can be of any data type, including other dictionaries.
 
 
 

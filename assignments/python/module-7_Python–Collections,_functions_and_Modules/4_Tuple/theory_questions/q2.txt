@@ -2,7 +2,32 @@ q - Creating and accessing elements in a tuple.
 
 Answer :
 
+Creating Tuples:
+my_tuple = (1, 2.5, "hello", True) 
+Without Parentheses (Tuple Packing):
 
+
+my_tuple = 1, 2.5, "hello", True 
+Using the tuple() Constructor:
+
+
+my_list = [10, 20, 30]
+my_tuple = tuple(my_list)
+
+Indexing:
+
+Use square brackets [] with the index to access a specific element.
+Remember, indexing starts from 0.
+
+my_tuple = ("apple", "banana", "cherry")
+first_fruit = my_tuple[0]   
+last_fruit = my_tuple[-1]  
+
+Slicing:
+
+
+my_tuple = (10, 20, 30, 40, 50)
+sub_tuple = my_tuple[1:4]  # Creates a new tuple: (20, 30, 40) 
 
 
 

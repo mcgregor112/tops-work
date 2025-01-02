@@ -2,7 +2,10 @@ q - Anonymous functions (lambda functions).
 
 Answer :
 
+Lambda Functions (Anonymous Functions) :
 
+Lambda functions are small, anonymous functions defined in a single line using the lambda keyword.
+They are primarily used for short, simple operations where defining a full-fledged function with def would be overkill.
 
 
 

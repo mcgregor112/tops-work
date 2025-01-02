@@ -2,7 +2,11 @@ q - Indexing in lists (positive and negative indexing).
 
 Answer :
 
+Positive Indexing: Starts from 0 and increases towards the end of the list.
 
+Negative Indexing: Starts from -1 (the last element) and decreases towards the beginning of the list.
+
+Both positive and negative indexing can be used interchangeably to access elements in a list.
 
 
 

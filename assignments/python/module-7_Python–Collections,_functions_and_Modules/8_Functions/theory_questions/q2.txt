@@ -2,6 +2,23 @@ q - Different types of functions: with/without parameters, with/without return v
 
 Answer :
 
+Certainly, let's break down different types of functions based on their parameters and return values:
+
+1. Functions Without Parameters and Without Return Values :
+
+Definition: These functions don't accept any input values and don't produce any output. They primarily perform actions or side effects.
+
+2. Functions With Parameters and Without Return Values :
+
+Definition: These functions accept input values (parameters) but don't produce an explicit output.
+
+3. Functions Without Parameters and With Return Values :
+
+Definition: These functions don't accept input values but produce an output.
+
+4. Functions With Parameters and With Return Values :
+
+Definition: These functions accept input values and produce an output.
 
 
 

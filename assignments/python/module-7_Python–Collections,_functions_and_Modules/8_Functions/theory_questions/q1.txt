@@ -2,7 +2,15 @@ q - Defining functions in Python.
 
 Answer :
 
+In Python, a function is a block of code that performs a specific task. It's a reusable unit that can be called multiple times within your program.
 
+Basic Syntax:
+
+def function_name(parameter1, parameter2, ...):
+  """Docstring: Briefly explain what the function does."""
+  # Code block 
+  # ...
+  return value 
 
 
 

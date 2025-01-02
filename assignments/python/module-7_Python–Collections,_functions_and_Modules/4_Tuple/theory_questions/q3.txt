@@ -2,6 +2,20 @@ q - Basic operations with tuples: concatenation, repetition, membership.
 
 Answer :
 
+1. Concatenation
+
+Combining two or more tuples to create a single, larger tuple.
+-- The + operator is used to concatenate tuples.
+
+2. Repetition
+
+Creating a new tuple by repeating the elements of an existing tuple a specified number of times.
+-- The * operator is used for tuple repetition.
+
+3. Membership
+
+Checking if a specific value exists within a tuple.
+-- The in and not in operators are used for membership checks.
 
 
 
