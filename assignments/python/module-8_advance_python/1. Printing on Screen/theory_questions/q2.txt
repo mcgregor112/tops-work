@@ -1,0 +1,5 @@
+q - Formatting outputs using f-strings and format().
+
+Answer - 
+
+Formatting outputs can be done using f-strings and the format() method. f-strings allow direct variable insertion within curly braces, while format() provides more structured formatting with placeholders.

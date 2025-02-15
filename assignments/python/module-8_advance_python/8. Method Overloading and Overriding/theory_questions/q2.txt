@@ -1,0 +1,5 @@
+q -Method overriding: redefining a parent class method in the child class.
+
+Answer -
+
+Method overriding occurs when a child class provides a new implementation for a method inherited from the parent class. The child class method must have the same name and parameters as the parent class method.

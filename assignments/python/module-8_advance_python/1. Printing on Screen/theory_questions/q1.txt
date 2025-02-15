@@ -1,0 +1,5 @@
+q - Introduction to the print() function in Python.
+
+Answer - 
+
+The print() function in Python is used to display output on the console. It takes multiple arguments, separates them with spaces by default, and can handle different data types.

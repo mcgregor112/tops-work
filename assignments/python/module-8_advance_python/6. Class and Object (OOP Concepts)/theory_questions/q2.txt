@@ -1,0 +1,5 @@
+q - What is the difference between local and global variables in Python?
+
+Answer - 
+
+Local variables are declared inside a function and can only be accessed within that function. Global variables are declared outside all functions and can be accessed anywhere in the program.

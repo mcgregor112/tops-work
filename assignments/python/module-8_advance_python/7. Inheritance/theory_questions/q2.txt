@@ -1,0 +1,5 @@
+q - Using the super() function to access properties of the parent class.
+
+Answer -
+
+The super() function allows access to the parent class’s methods and attributes inside a child class. It is mainly used to extend or modify inherited behavior without explicitly calling the parent class.

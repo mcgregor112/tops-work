@@ -1,0 +1,5 @@
+q - Method overloading: defining multiple methods with the same name but different parameters.
+
+Answer -
+
+Method overloading is defining multiple methods with the same name but different numbers of parameters. Python does not support true method overloading, but it can be achieved using default arguments or variable-length arguments.

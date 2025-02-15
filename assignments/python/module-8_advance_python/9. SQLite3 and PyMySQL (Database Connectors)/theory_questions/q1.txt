@@ -1,0 +1,5 @@
+q - Introduction to SQLite3 and PyMySQL for database connectivity.
+
+Answer -
+
+SQLite3 is a lightweight, file-based database management system, while PyMySQL is a library used to connect Python with MySQL databases. Both allow executing SQL queries using Python.

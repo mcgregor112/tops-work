@@ -1,0 +1,11 @@
+q - Difference between search and match.
+
+Answer -
+
+re.search() :
+
+The re.search() function is used to find a substring within a string and returns a match object if found. It is useful when searching for patterns in a larger text.
+
+re.match() :
+
+The re.match() function checks if a string starts with a specific pattern. If the pattern is found at the beginning of the string, it returns a match object; otherwise, it returns None.

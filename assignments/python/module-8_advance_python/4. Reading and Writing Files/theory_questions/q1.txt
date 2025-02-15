@@ -1,0 +1,9 @@
+q - What are the different methods for reading a file (read(), readline(), readlines()) in Python?
+
+Answer - 
+
+read(): Reads the entire file content as a single string.
+
+readline(): Reads one line from the file at a time.
+
+readlines(): Reads all lines and returns them as a list of strings.

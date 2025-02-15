@@ -1,0 +1,13 @@
+q - Opening files in different modes ('r', 'w', 'a', 'r+', 'w+').
+
+Answer - 
+
+'r' (read mode) opens a file for reading (default mode).
+
+'w' (write mode) creates a new file or overwrites an existing one.
+
+'a' (append mode) adds new content without deleting existing data.
+
+'r+' (read and write mode) allows reading and writing without truncating the file.
+
+'w+' (write and read mode) creates or overwrites a file and allows reading.

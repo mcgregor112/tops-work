@@ -1,0 +1,5 @@
+q - What are classes and objects in Python? Explain with an example.
+
+Answer - 
+
+A class is a blueprint for creating objects, and an object is an instance of a class. A class defines properties (variables) and methods (functions) that objects can use.

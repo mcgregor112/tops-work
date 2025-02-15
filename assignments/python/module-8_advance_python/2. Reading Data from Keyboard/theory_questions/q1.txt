@@ -1,0 +1,5 @@
+q - Using the input() function to read user input from the keyboard.
+
+Answer - 
+
+The input() function in Python reads user input from the keyboard as a string. It waits for the user to enter a value and press Enter before continuing program execution.

@@ -1,0 +1,13 @@
+q - What are the different types of inheritance in Python (Single, Multilevel, Multiple, Hierarchical, Hybrid)?
+
+Answer -
+
+Single Inheritance: A child class inherits from a single parent class.
+
+Multilevel Inheritance: A child class inherits from another child class.
+
+Multiple Inheritance: A child class inherits from more than one parent class.
+
+Hierarchical Inheritance: Multiple child classes inherit from a single parent class.
+
+Hybrid Inheritance: A combination of two or more types of inheritance.

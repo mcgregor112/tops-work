@@ -1,0 +1,5 @@
+q - Closing files using close().
+
+Answer -
+
+A file is opened using the open() function, and once the operations are done, it should be closed using the close() method to free system resources

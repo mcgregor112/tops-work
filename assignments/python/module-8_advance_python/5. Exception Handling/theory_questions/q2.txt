@@ -1,0 +1,7 @@
+q - Understanding multiple exceptions and custom exceptions.
+
+Answer -
+
+Multiple exceptions : It can be handled by specifying multiple except blocks for different error types.
+
+Custom exceptions : It can be created by defining a new exception class that inherits from the built-in Exception class.

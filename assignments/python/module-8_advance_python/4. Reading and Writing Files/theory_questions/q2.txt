@@ -1,0 +1,7 @@
+q - How do you write to a file using write() and writelines()?
+
+Answer - 
+
+write() : Writing to a file is done using write(), which writes a string to a file.
+
+writelines() : this writes a list of strings to a file. If the file is opened in 'w' mode, it will overwrite existing content.

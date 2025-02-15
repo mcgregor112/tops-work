@@ -1,0 +1,5 @@
+q - What are exceptions in Python, and why do we need exception handling?
+
+Answer - 
+
+Exceptions are runtime errors that occur during program execution, such as division by zero, invalid input, or file not found. Exception handling prevents the program from crashing by handling such errors.

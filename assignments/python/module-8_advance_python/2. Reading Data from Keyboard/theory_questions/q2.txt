@@ -1,0 +1,5 @@
+q - Converting user input into different data types (e.g., int, float, etc.).
+
+Answer - 
+
+User input is always received as a string by default, so it must be converted to other data types like int or float using type conversion functions (int(), float(), etc.) when needed.

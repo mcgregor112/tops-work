@@ -1,0 +1,5 @@
+q - Using the open() function to create and access files.
+
+Answer -
+
+A file is opened using the open() function, and once the operations are done

@@ -1,0 +1,5 @@
+q - Using re.search() and re.match() functions in Python’s re module for pattern matching.
+
+Answer -
+
+The re.search() function scans a string for a match anywhere in the text, while re.match() only checks for a match at the beginning of the string.

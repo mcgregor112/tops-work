@@ -1,0 +1,5 @@
+q - Creating and executing SQL queries from Python using these connectors.
+
+Answer -
+
+SQL queries like CREATE TABLE, INSERT, SELECT, UPDATE, and DELETE can be executed using Python. Connections must be established using connect(), and commands should be executed using a database cursor.
