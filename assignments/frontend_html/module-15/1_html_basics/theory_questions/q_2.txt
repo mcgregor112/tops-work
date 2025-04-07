@@ -1,0 +1,5 @@
+q - Explain the basic structure of an HTML document. Identify the mandatory tags and their purposes.
+
+Answer - 
+
+HTML document's basic structure contains of a doctype declaration <!DOCTYPE>, the <html> root element, a <head> section for metadata, and a <body> section for the visible content, with mandatory tags like <html>, <head>, <title>, and <body>. 

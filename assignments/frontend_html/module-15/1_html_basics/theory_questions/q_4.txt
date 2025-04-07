@@ -1,0 +1,5 @@
+q - Discuss the role of semantic HTML. Why is it important for accessibility and SEO? Provide examples of semantic elements.
+
+Answer - 
+
+Semantic HTML uses meaningful tags to structure web content, improving accessibility for users with disabilities and helping search engines understand your site's content better, leading to better SEO. Examples of semantic elements include <header>, <nav>, <article>, <section>, and <footer>.

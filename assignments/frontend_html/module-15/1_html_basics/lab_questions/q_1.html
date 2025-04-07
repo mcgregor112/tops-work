@@ -1,0 +1,75 @@
+<!-- q -  Task: Create a simple HTML webpage that includes: o A header (<header>), footer (<footer>), main section (<main>), and aside section (<aside>). o A paragraph with some basic text. o A list (both ordered and unordered). o A link that opens in a new tab.
+     -->
+
+<!-- Answer -  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px ;
+            border: border-box;
+        }
+
+        .container{
+            margin-bottom: 25px;
+            border: 1px solid black;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+        }
+
+        .container>ul{
+            /* margin-left: 100px; */
+            /* border: 1px solid black; */
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+
+        .container>a{
+
+            /* border: 1px solid black; */
+            display: flex;
+            align-self: self-end;
+        }
+
+        footer{
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <div class="container">
+            <ul>
+                <li , id="l-1">home</li>
+                <li , id="l-2">house</li>
+                <li , id="l-3">shelter</li>
+                <li , id="l-4">hut</li>
+            </ul>
+
+            <a href="https://www.youtube.com/", target="_blank">Youtube</a>
+        </div>
+    </header>
+
+    <main>
+        <p>Question no. 1</p>
+
+    </main>
+
+
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>

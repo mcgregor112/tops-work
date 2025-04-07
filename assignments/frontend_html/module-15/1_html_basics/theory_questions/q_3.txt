@@ -1,0 +1,11 @@
+q - What is the difference between block-level elements and inline elements in HTML? Provide examples of each.
+
+Anser - 
+
+Block-level : A bloack-level element covers full block of an web page in a width .
+
+example : <p>Lorem ipsum dolor sit amet.</p>    
+
+Inline-level : while the Inline level elements covers only needed space in a block of an web page .
+
+example : <span>Lorem ipsum dolor sit amet.</span>

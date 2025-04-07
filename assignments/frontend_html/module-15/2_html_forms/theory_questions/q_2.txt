@@ -1,0 +1,5 @@
+q - Explain the difference between the GET and POST methods in form submission. When should each be used?
+
+Answer :
+
+In form submission, GET retrieves data and is visible in the URL, while POST sends data in the request body, making it suitable for sensitive information and larger data sets. 

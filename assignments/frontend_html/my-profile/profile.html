@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <style>
+
+        :root {
+            --blue: #3b5998;
+            --blue2: #8b9dc3;
+            --gray: #dfe3ee;
+            --lightgray: #f7f7f7;
+            --white: #ffffff;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .tpheader{
+            display: flex;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            height: 60px;
+            justify-content: space-between;
+            background-color: var(--blue);            
+
+        }
+
+        .tpheaderleft{
+            margin-left: 100px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .tpheaderright{
+            display: flex;
+            align-self: center;
+            /* border: 1px solid black; */
+            margin-right: 100px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .logo{
+            /* border: 1px solid black; */
+            width: auto;
+            align-self: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--blue);
+            background-color: var(--white);
+            
+        }
+        .fullname{
+            /* border: 1px solid black; */
+            width: auto;
+            align-self: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        i{
+            
+            width: auto;
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffffff; 
+
+        }
+
+        .main{
+            display: grid;
+            /* border: 1px solid black; */
+            height: auto;
+            margin-left:100px;
+            margin-right: 100px;
+            grid-template-columns: 1fr 3fr ;
+            column-gap: 15px;
+
+        }
+
+        .mainleft{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid black;
+        }
+
+        .mainleft > img{
+            border-radius: 50%;
+            border: 3px solid #3b5998 ;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-self: center;
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .maincenter{
+            border: 1px solid black;
+        }
+
+        .mainleft>.details>h1{
+            color: var(--blue);
+            font-size: 1em;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="tpheader">
+        
+        <div class="tpheaderleft">
+            <div class="logo">KS</div>
+            <div class="fullname">Krishna Sharma</div>
+        </div>
+
+        <div class="tpheaderright">
+            <div class="linkedin">
+                 <a href="https://www.linkedin.com/in/krishna-sharma-b6216327b/", target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+
+            <div class="git">
+                <a href="https://github.com/mcgregor112/", target="_blank">                    
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+            </div>
+        </div>      
+        
+    </div>
+
+    <div class="main">
+        <div class="mainleft">
+            <img src="/assignments/frontend_html/my-profile/images/img1.png" alt="">
+
+           <div class="details">
+                <h1>CONTACT DETAILS</h1>
+                
+           </div>
+        </div>
+        <div class="maincenter"></div>
+    </div>
+
+</body>
+</html>

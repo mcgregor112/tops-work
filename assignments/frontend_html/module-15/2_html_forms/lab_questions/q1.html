@@ -1,0 +1,60 @@
+<!-- q -  Task: Create a contact form with the following fields: o Full name (text input) o Email (email input) o Phone number (tel input) o Subject (dropdown menu) o Message (textarea) o Submit button -->
+<!-- Additional Requirements: -->
+<!-- o Use appropriate form validation using required, minlength, maxlength, and pattern. o Link form labels with their corresponding inputs using the for attribute. -->
+
+<!-- Answer : -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        fieldset{
+            margin-top: 200px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Contact form</legend>
+        <form action="" method="" enctype="multipart/form-data"></form>
+        <label for="fullname">fullname</label>
+        <input type="text" id="fullname" name="fullname" placeholder="krishna sharma" required >
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="ks8130624@gmail.com" required >
+        <label for="Phone number">Phone number</label>
+        <input type="tel" id="Phone number" name="Phone number" placeholder="8780779256" required >
+        <label for="Subject">Subject</label>
+        <select name="subject" id="subject">
+            <option value="maths">maths</option>
+            <option value="science">science</option>
+            <option value="social_science">social_science</option>
+            <option value="english">english</option>
+            <option value="hindi">hindi</option>
+          </select>
+        <label for="Message">Message</label>
+        <input type="text" id="Message" name="Message" placeholder="text area" required >
+        <button>submit</button>
+
+    </fieldset>
+
+
+</body>
+</html>

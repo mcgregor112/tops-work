@@ -1,0 +1,5 @@
+q - What is the purpose of the label element in a form, and how does it improve accessibility?
+
+Answer - 
+
+The label element in a form provides a description or caption for a form control, making it easier for users, especially those with disabilities, to understand and interact with the form. It improves accessibility by associating the label text with the corresponding input field, enabling screen readers to announce the label when the input field is focused and allowing users to click the label to focus the input. 
