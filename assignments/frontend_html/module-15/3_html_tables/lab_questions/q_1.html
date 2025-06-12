@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Store</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px 20px;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo img {
+      height: 40px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+
+    nav ul li {
+      cursor: pointer;
+    }
+
+    nav input, nav button {
+      padding: 5px;
+      margin-left: 10px;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: white;
+    }
+
+    td img {
+      width: 100px;
+      height: auto;
+    }
+
+    .in-stock {
+      color: green;
+      font-weight: bold;
+    }
+
+    .out-of-stock {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqmdVlScPxSFMyeUPn3O5NgokumVeIOdf2Q&s" alt="Logo">
+    </div>
+
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Cart</li>
+    </ul>
+
+    <div>
+      <input type="text" placeholder="Search shoes...">
+      <button>Search</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Image</th>
+          <th>Price</th>
+          <th>Description</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nike Vomero 18</td>
+          <td><img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/14a27a5c-33ef-4f9e-bff8-5f7111ddb8fd/NIKE+VOMERO+18.png" alt="Nike Vomero 18"></td>
+          <td>$150</td>
+          <td>Lightweight running shoes for ultimate comfort and speed.</td>
+          <td class="in-stock">In Stock</td>
+        </tr>
+        <tr>
+          <td>Nike Motiva</td>
+          <td><img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3b82ac2e-64a1-4f6c-82eb-ebe3348b2ca7/NIKE+MOTIVA.png" alt="Nike Motiva"></td>
+          <td>$130</td>
+          <td>Everyday trainers built for durability and style.</td>
+          <td class="out-of-stock">Out of Stock</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Special Edition</td>
+          <td><img src="https://en-kw.sssports.com/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw9546e47a/sss/SSS2/N/K/D/V/1/SSS2_NKDV1237_001_196604437431_1.jpg?sw=700&sh=700&sm=fit" alt="Special Edition"></td>
+          <td>$200</td>
+          <td>Premium materials and limited edition design.</td>
+          <td class="in-stock">In Stock</td>
+        </tr>
+        <tr>
+          <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3_J7DKe8UbcNxP_3IbMlqh1zKitj3gBIVw&s" alt="Special Edition 2"></td>
+          <td>$220</td>
+          <td>Exclusive collaboration release with urban style features.</td>
+          <td class="out-of-stock">Out of Stock</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

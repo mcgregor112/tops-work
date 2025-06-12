@@ -1,0 +1,5 @@
+q - What is the difference between colspan and rowspan in tables? Provide examples.
+
+Answer :
+
+In HTML tables, colspan specifies how many columns a cell should span horizontally, while rowspan specifies how many rows a cell should span vertically. 

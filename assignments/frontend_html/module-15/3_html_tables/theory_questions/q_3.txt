@@ -1,0 +1,5 @@
+q - Why should tables be used sparingly for layout purposes? What is a better alternative?
+
+Answer :
+
+Tables should be used sparingly for layout because they were designed for structuring data, not presentation, and can negatively impact accessibility and flexibility. A better alternative is to use CSS layout techniques like Flexbox or Grid, which offer more control and flexibility for creating layouts. 
