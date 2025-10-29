@@ -1,0 +1,11 @@
+Question 2: Describe the grid-template-columns, grid-template-rows, and grid-gap properties.
+
+Answer -
+
+grid-template-columns: Defines the number and width of columns in a grid layout.
+
+grid-template-rows: Defines the number and height of rows.
+
+grid-gap (or gap): Adds spacing between rows and columns in the grid.
+
+These properties help control the structure and spacing of elements inside a grid container.

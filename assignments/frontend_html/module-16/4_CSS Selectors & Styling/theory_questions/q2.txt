@@ -1,0 +1,5 @@
+q - Explain the concept of CSS specificity. How do conflicts between multiple styles get resolved?
+
+Answer - 
+
+CSS specificity determines which style rule is applied when multiple rules target the same element. It gives priority based on the type of selector used. Inline styles have the highest priority, followed by ID selectors, then class selectors, and finally element selectors. If two rules have the same specificity, the rule defined last in the CSS is applied.

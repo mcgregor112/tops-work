@@ -1,0 +1,9 @@
+q - What is the difference between border-box and content-box box-sizing in CSS? Which is the default?
+
+Answer - 
+
+content-box: The width and height apply only to the content. Padding and border are added outside, increasing the total element size.
+
+border-box: The width and height include content, padding, and border. This makes it easier to control layout sizes.
+
+Default: The default box-sizing value in CSS is content-box.

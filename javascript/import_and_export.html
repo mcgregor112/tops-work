@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Filter Example</title>
+</head>
+<body>
+  <h2>Array Filter Example</h2>
+  <div id="output"></div>
+
+  <script>
+    const people = [
+      { id: 1, name: "Krishna", dpart: "IT" },
+      { id: 2, name: "Arjun", dpart: "Sales" },
+      { id: 3, name: "Ravi", dpart: "IT" },
+      { id: 4, name: "Sita", dpart: "IT" },
+      { id: 5, name: "Radha", dpart: "Marketing" }
+    ];
+
+    const filtered = people.filter(person => person.dpart === "IT");
+
+    let output = "<h3>People in IT Department:</h3><ul>";
+    filtered.forEach(p => {
+      output += `<li>${p.name} (Department: ${p.dpart})</li>`;
+    });
+    output += "</ul>";
+
+    document.getElementById("output").innerHTML = output;
+  </script>
+</body>
+</html>

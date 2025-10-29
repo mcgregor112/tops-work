@@ -1,0 +1,102 @@
+<!--  Task: Create a simple webpage layout using Flexbox. The layout should include: o A header. o A sidebar on the left. o A main content area in the center. o A footer.
+Additional Requirements:
+o Use Flexbox to position and align the elements. o Apply different justify-content and align-items properties to observe their effects. o Ensure the layout is responsive, adjusting for smaller screens. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout Example</title>
+  <style>
+    /* Reset default spacing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      flex: 1;
+      background-color: #f4f4f4;
+    }
+
+    aside {
+      background-color: #333;
+      color: white;
+      width: 200px;
+      padding: 20px;
+    }
+
+    main {
+      background-color: #fff;
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    /* Responsive layout for smaller screens */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      aside {
+        width: 100%;
+        text-align: center;
+      }
+
+      main {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Flexbox Webpage</h1>
+  </header>
+
+  <div class="container">
+    <aside>
+      <h2>Sidebar</h2>
+      <p>Navigation links or info here.</p>
+    </aside>
+
+    <main>
+      <h2>Main Content</h2>
+      <p>This is the main content area.</p>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Website | Designed with Flexbox</p>
+  </footer>
+
+</body>
+</html>

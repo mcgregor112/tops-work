@@ -2,3 +2,4 @@ q - What is a CSS selector? Provide examples of element, class, and ID selectors
 
 Answer - 
 
+A CSS selector is a pattern used to select and style specific HTML elements. It tells the browser which elements the defined styles should apply to. Common selectors include element, class, and ID selectors.

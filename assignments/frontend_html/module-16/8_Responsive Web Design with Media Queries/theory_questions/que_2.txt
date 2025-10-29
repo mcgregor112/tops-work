@@ -1,0 +1,5 @@
+q - What is the font-family property in CSS? How do you apply a custom Google Font to a webpage?
+
+Answer - 
+
+A basic media query is a CSS rule that changes styles when certain conditions are met. For example, a media query can adjust font sizes, layout, or padding for screens smaller than a specific width, improving readability and usability on mobile devices.

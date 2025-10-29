@@ -1,0 +1,10 @@
+style in react js :
+
+in react , we canm style components using multiple approaches, depanding on our project needs
+
+1 : Inline styles in react
+2 : css stylesheets (.css files)
+3 : css modules (scoped css)
+4 : styled components (css-in-js)
+5 : tailwind css (utility-first css framework)
+6 : Dynamic styling in react 

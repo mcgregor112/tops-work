@@ -1,0 +1,5 @@
+q - What is the font-family property in CSS? How do you apply a custom Google Font to a webpage?
+
+Answer - 
+
+The font-family property in CSS specifies the typeface used for text elements on a webpage. It allows defining a prioritized list of fonts. A custom Google Font can be applied by linking it in the HTML <head> section and then referencing it in CSS using the font-family property.

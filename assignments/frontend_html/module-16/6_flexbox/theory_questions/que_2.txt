@@ -1,0 +1,9 @@
+Question 2: Describe the properties justify-content, align-items, and flex-direction used in Flexbox.
+
+Answer - 
+
+justify-content: Controls horizontal alignment of flex items within the container (e.g., flex-start, center, flex-end, space-between, space-around).
+
+align-items: Controls vertical alignment of flex items within the container (e.g., flex-start, center, flex-end, stretch).
+
+flex-direction: Defines the direction in which flex items are placed inside the container (row, row-reverse, column, or column-reverse).

@@ -1,0 +1,5 @@
+q - Explain the difference between web-safe fonts and custom web fonts. Why might you use a web-safe font over a custom font?
+
+Answer - 
+
+Media queries in CSS are used to apply different styles to a webpage depending on the device characteristics, such as screen size, resolution, or orientation. They are essential for creating responsive designs that adapt to various devices like mobiles, tablets, and desktops.

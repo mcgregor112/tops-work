@@ -1,0 +1,100 @@
+<!-- q - Task: Build a responsive webpage that includes: o A navigation bar. o A content section with two columns. o A footer.
+Additional Requirements:
+o Use media queries to make the webpage responsive for mobile devices. o On smaller screens (below 768px), stack the columns vertically. o Adjust the font sizes and padding to improve readability on mobile.
+
+Answer -
+ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar */
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    /* Layout container */
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .column {
+      flex: 1;
+      margin: 10px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Media Query for screens smaller than 768px */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .column {
+        margin: 10px 0;
+      }
+      body {
+        font-size: 16px;
+        padding: 10px;
+      }
+      nav, footer {
+        font-size: 18px;
+        padding: 12px;
+      }
+    }
+
+    /* Media Query for screens smaller than 600px */
+    @media (max-width: 600px) {
+      body {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>My Responsive Website</h2>
+  </nav>
+
+  <div class="container">
+    <div class="column">
+      <h3>Column 1</h3>
+      <p>This is the first content column.</p>
+    </div>
+
+    <div class="column">
+      <h3>Column 2</h3>
+      <p>This is the second content column.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 My Website | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

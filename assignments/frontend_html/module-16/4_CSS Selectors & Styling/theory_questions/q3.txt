@@ -1,0 +1,9 @@
+q - What is the difference between internal, external, and inline CSS? Discuss the advantages and disadvantages of each approach.
+
+Answer - 
+
+Inline CSS: Written inside individual HTML elements using the style attribute. It is quick but not reusable and hard to maintain.
+
+Internal CSS: Written inside a <style> tag within the HTML <head>. It is good for small pages but cannot be reused across multiple pages.
+
+External CSS: Written in a separate .css file and linked to the HTML. It is reusable, clean, and easier to maintain but requires loading an additional file.

@@ -1,0 +1,141 @@
+<!--  Task: Create a 3x3 grid of product cards using CSS Grid. Each card should contain: o A product image. o A product title. o A price.
+Additional Requirements:
+o Use grid-template-columns to create the grid layout.
+o Use grid-gap to add spacing between the grid items. o Apply hover effects to each card for better interactivity. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Grid</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      width: 90%;
+      max-width: 1000px;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 5px;
+      color: #333;
+    }
+
+    .card p {
+      color: #007bff;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Responsive layout for smaller screens */
+    @media (max-width: 768px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>$19.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>$24.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>$29.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 4">
+      <h3>Product 4</h3>
+      <p>$34.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 5">
+      <h3>Product 5</h3>
+      <p>$39.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 6">
+      <h3>Product 6</h3>
+      <p>$44.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 7">
+      <h3>Product 7</h3>
+      <p>$49.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 8">
+      <h3>Product 8</h3>
+      <p>$54.99</p>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Product 9">
+      <h3>Product 9</h3>
+      <p>$59.99</p>
+    </div>
+  </div>
+
+</body>
+</html>

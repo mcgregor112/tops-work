@@ -1,0 +1,13 @@
+q - Explain the CSS box model and its components (content, padding, border, margin). How does each affect the size of an element?
+
+Answer - 
+
+The CSS box model describes how every HTML element is structured and how its size is calculated. It consists of four components:
+
+Content: The actual text or image inside the element.
+
+Padding: The space between the content and the element’s border.
+
+Border: A line that wraps around the padding and content.
+
+Margin: The outermost space that separates the element from others.
