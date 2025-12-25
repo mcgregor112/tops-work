@@ -1,0 +1,26 @@
+<!-- o Create a JavaScript program that uses a while loop to sum all even numbers between 1 and 20. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops - While Loop</title>
+</head>
+<body>
+
+    <script>
+        let sum = 0;
+        let number = 1;
+
+        while (number <= 20) {
+            if (number % 2 === 0) {
+                sum += number;
+            }
+            number++;
+        }
+
+        console.log("Sum of even numbers between 1 and 20:", sum);
+    </script>
+</body>
+</html>
