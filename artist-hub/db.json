@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Manager",
+      "email": "manager@arthub.com",
+      "password": "123456",
+      "role": "manager"
+    },
+    {
+      "id": "fd79",
+      "name": "krishna",
+      "email": "krishna@gmail.com",
+      "password": "Krishna112",
+      "role": "manager"
+    },
+    {
+      "id": "750d",
+      "name": "example",
+      "email": "example@gmail.com",
+      "password": "example",
+      "role": "user"
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "name": "Amit Verma",
+      "bio": "Modern Art Expert",
+      "image": "/images/artist1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Golden Sunset",
+      "description": "Acrylic on canvas",
+      "price": 3500,
+      "artistId": 1,
+      "category": "painting",
+      "image": "/images/art1.jpg",
+      "stock": 10
+    }
+  ],
+  "sell": [
+    {
+      "id": 1,
+      "title": "Sunset Painting",
+      "category": "Painting",
+      "price": "1500",
+      "description": "Beautiful orange sunset",
+      "artistName": "Ravi Verma",
+      "artistEmail": "ravi@gmail.com",
+      "image": "image-url",
+      "status": "Available",
+      "userId": "2"
+    }
+  ],
+  "orders": []
+}

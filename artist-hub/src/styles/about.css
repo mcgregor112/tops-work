@@ -1,0 +1,39 @@
+.about-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  color: white;
+}
+
+.about-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-desc {
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.about-grid {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.about-card {
+  padding: 25px;
+  background: #111;
+  border-radius: 12px;
+}
+
+.about-card h2 {
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  opacity: 0.8;
+}
